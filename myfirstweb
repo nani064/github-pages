@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+    <h1>My First Webiste</h1>
+    <h3 id="nani">Lets play a game</h3>
+    <button type="button" onclick="fun1()">yes</button>
+        <button type="button" onclick="fun2()">no</button>
+        <p id="hell"></p>
+    <script>
+        function fun1()
+        {
+           document.getElementById("nani").innerHTML="are you human";
+        }
+        function fun2()
+        {
+            document.getElementById("hell").innerHTML="You are intaligent vrooo!!";
+        }
+    </script>
+</body>
+</html>
